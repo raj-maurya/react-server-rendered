@@ -53,7 +53,7 @@ module.exports = function universalLoader(req, res) {
                 <link rel="shortcut icon" href="%PUBLIC_URL%/favicons/favicon.ico">
                 <title>${filme.title} - Sugestão Netflix</title>
                 <meta property="og:type" content="video.other">
-                <meta property="og:image" content="${filme.poster}">
+                <meta property="og:image" content="${filme.gallery[0]}">
                 <meta property="og:image:height" content="960">
                 <meta property="og:image:width" content="1435">
                 <meta property="og:title" content="Sugestão aleatória do dia: ${filme.title} - ${filme.year}">
