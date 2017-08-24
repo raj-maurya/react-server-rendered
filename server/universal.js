@@ -54,8 +54,8 @@ module.exports = function universalLoader(req, res) {
                 <title>${filme.title} - Sugestão Netflix</title>
                 <meta property="og:type" content="video.other">
                 <meta property="og:image" content="${filme.poster}">
-                <meta property="og:image:height" content="268">
-                <meta property="og:image:width" content="182">
+                <meta property="og:image:height" content="960">
+                <meta property="og:image:width" content="1435">
                 <meta property="og:title" content="Sugestão aleatória do dia: ${filme.title} - ${filme.year}">
                 <meta property="og:url" content="http://34.209.188.46:8080/${param}">
                 <meta property="og:description" content="${filme.description}">
