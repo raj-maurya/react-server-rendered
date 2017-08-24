@@ -55,7 +55,7 @@ module.exports = function universalLoader(req, res) {
                 <meta property="og:type" content="video.other">
                 <meta property="og:image" content="${filme.poster}">
                 <meta property="og:title" content="${filme.title}">
-                <meta property="og:url" content="http://34.209.188.46:8080/" + ${param}">
+                <meta property="og:url" content="http://34.209.188.46:8080/${param}">
                 <meta property="og:description" content="${filme.description}">
               </head>
               <body>
